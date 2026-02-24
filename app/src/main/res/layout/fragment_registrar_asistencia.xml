@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_theme_background"
+    android:padding="20dp">
+
+    <!-- ===== TÍTULO ===== -->
+    <TextView
+        style="@style/Text.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Asistencia"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- ===== CARD FECHA ===== -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardFecha"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="28dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/md_card_bg"
+        app:cardElevation="0dp"
+        app:shapeAppearanceOverlay="@style/Shape.Large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/txtFechaSeleccionada"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_calendar_today"
+                android:drawablePadding="8dp"
+                android:text=""
+                android:textSize="16sp"
+                android:textColor="@color/md_text_primary"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/arrow_down_float"
+                app:tint="@color/md_text_primary"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- ===== NOMBRE + CHECK ===== -->
+    <!-- ===== SELECCIÓN DE USUARIO ===== -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seleccionar usuario"
+        app:startIconDrawable="@drawable/ic_person"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+        <Spinner
+            android:id="@+id/spUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:background="@color/divider_color"/>
+
+    <!-- ===== FECHA Y HORA ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txtFechaActual"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="#9E9E9E"/>
+
+        <TextView
+            android:id="@+id/txtHoraActual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/md_time_blue"/>
+    </LinearLayout>
+
+    <!-- Espacio -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <!-- ===== BOTÓN ENTRADA ===== -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEntrada"
+        style="@style/Btn.Primary"
+        android:layout_width="match_parent"
+        android:text="Marcar Entrada"
+        app:icon="@drawable/ic_arrow_forward"
+        app:iconGravity="end"
+        app:iconPadding="8dp"
+        android:backgroundTint="@color/green_entrada"
+        android:textColor="@color/md_theme_onPrimary"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- ===== BOTÓN SALIDA ===== -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSalida"
+        style="@style/Btn.Primary"
+        android:layout_width="match_parent"
+        android:text="Marcar Salida"
+        app:icon="@drawable/ic_arrow_forward"
+        app:iconGravity="end"
+        app:iconPadding="8dp"
+        android:backgroundTint="@color/red_salida"
+        android:textColor="@color/md_theme_onPrimary"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.drogavet.asistencias.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/registrarFragment"
+        android:name="com.drogavet.asistencias.ui.registro.RegistrarAsistenciaFragment"
+        android:label="@string/registrar"
+        tools:layout="@layout/fragment_registrar_asistencia" />
+
+    <fragment
+        android:id="@+id/verFragment"
+        android:name="com.drogavet.asistencias.ui.ver.VerAsistenciasFragment"
+        android:label="@string/ver"
+        tools:layout="@layout/fragment_ver_asistencias" />
+
+    <fragment
+        android:id="@+id/reportesFragment"
+        android:name="com.drogavet.asistencias.ui.reportes.ReportesFragment"
+        android:label="@string/reportes"
+        tools:layout="@layout/fragment_reportes" />
+
+    <fragment
+        android:id="@+id/usuariosFragment"
+        android:name="com.drogavet.asistencias.ui.usuarios.UsuariosFragment"
+        android:label="@string/usuarios"
+        tools:layout="@layout/fragment_usuarios" />
+    <fragment
+        android:id="@+id/registrarEmpleadoFragment"
+        android:name="com.drogavet.asistencias.ui.empleado.RegistrarEmpleadoFragment"
+        android:label="Registrar Empleado"
+        tools:layout="@layout/fragment_registrar_empleado" />
+    <fragment
+        android:id="@+id/verEmpleadosFragment"
+        android:name="com.drogavet.asistencias.ui.empleado.VerEmpleadosFragment"
+        android:label="Lista Empleados"
+        tools:layout="@layout/fragment_ver_empleados" />
+</navigation>

@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment" android:icon="@drawable/ic_shield" android:title="@string/home"/>
+    <item android:id="@+id/registrarFragment" android:icon="@drawable/ic_shield" android:title="@string/registrar"/>
+    <item android:id="@+id/verFragment" android:icon="@drawable/ic_shield" android:title="@string/ver"/>
+    <item android:id="@+id/reportesFragment" android:icon="@drawable/ic_shield" android:title="@string/reportes"/>
+    <item android:id="@+id/usuariosFragment" android:icon="@drawable/ic_shield" android:title="@string/usuarios"/>
+</menu>

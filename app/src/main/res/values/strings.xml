@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- =========================
+         App / General
+    ========================== -->
+    <string name="app_name">SegurApp Asistencias</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="close">Cerrar</string>
+    <string name="try_again">Reintentar</string>
+    <string name="loading">Cargando…</string>
+    <string name="error_generic">Ocurrió un error inesperado</string>
+    <string name="empty_state">No hay datos para mostrar</string>
+
+    <!-- =========================
+         Bottom Navigation / Secciones
+    ========================== -->
+    <string name="home">Inicio</string>
+    <string name="registrar">Registrar</string>
+    <string name="ver">Ver</string>
+    <string name="reportes">Reportes</string>
+    <string name="usuarios">Usuarios</string>
+
+    <!-- =========================
+         Bienvenida / Home
+    ========================== -->
+    <string name="bienvenido">Bienvenido\n¿Qué deseas hacer hoy?</string>
+
+    <!-- Accesibilidad (contentDescription) para las cards del Home -->
+    <string name="cd_card_registrar">Abrir: Registrar asistencia</string>
+    <string name="cd_card_ver">Abrir: Ver asistencias</string>
+    <string name="cd_card_reportes">Abrir: Reportes</string>
+    <string name="cd_card_usuarios">Abrir: Usuarios</string>
+
+    <!-- Accesibilidad (genéricas) -->
+    <string name="cd_decorative_image" translatable="false">@null</string>
+    <string name="cd_app_logo">Logo de SegurApp Asistencias</string>
+    <string name="cd_open_menu">Abrir menú</string>
+    <string name="cd_back">Volver</string>
+
+    <!-- =========================
+         Login
+    ========================== -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_user_hint">Usuario</string>
+    <string name="login_pass_hint">Contraseña</string>
+    <string name="login_sign_in">Ingresar</string>
+    <string name="login_error_empty">Ingresa usuario y contraseña</string>
+    <string name="login_error_invalid">Credenciales inválidas</string>
+    <string name="login_welcome">¡Hola!</string>
+    <string name="que_deseas_hacer_hoy">¿Qué deseas hacer hoy?</string>
+
+
+    <!-- =========================
+         Registrar Asistencia
+    ========================== -->
+    <string name="registrar_asistencia_title">Registrar Asistencia</string>
+    <string name="marcar_entrada">Marcar Entrada</string>
+    <string name="marcar_salida">Marcar Salida</string>
+    <string name="entrada_registrada">Entrada registrada</string>
+    <string name="salida_registrada">Salida registrada</string>
+    <string name="registro_existente">Ya existe un registro de entrada para hoy</string>
+    <string name="registro_incompleto">Aún no se registró la entrada</string>
+    <string name="permiso_requerido">Se requiere permiso para continuar</string>
+
+    <!-- =========================
+         Ver Asistencias (Listado)
+    ========================== -->
+    <string name="ver_asistencias_title">Ver Asistencias</string>
+    <string name="filtro_rango_fechas">Rango de fechas</string>
+    <string name="filtro_aplicar">Aplicar filtros</string>
+    <string name="sin_asistencias">No hay asistencias en el periodo seleccionado</string>
+
+    <!-- Item de lista (placeholders con formateo) -->
+    <string name="asistencia_item_nombre_fecha">%1$s — %2$s</string>
+    <string name="asistencia_item_horario">Entrada: %1$s   Salida: %2$s</string>
+    <string name="placeholder_no_data">--</string>
+
+    <!-- =========================
+         Reportes
+    ========================== -->
+    <string name="reportes_resumen_title">Resumen</string>
+    <string name="reportes_resumen_contenido">Asistencias: %1$d  |  Con salida: %2$d  |  En curso: %3$d</string>
+    <string name="reportes_descargar">Descargar Reporte</string>
+    <string name="reportes_export_ok">Reporte generado</string>
+    <string name="reportes_export_error">No se pudo generar el reporte</string>
+
+    <!-- =========================
+         Usuarios
+    ========================== -->
+    <string name="usuarios_title">Usuarios</string>
+    <string name="usuarios_listado_demo">Listado (demo)</string>
+    <string name="usuario_editar">Editar</string>
+    <string name="usuario_restablecer_contra">Restablecer contraseña</string>
+    <string name="usuario_rol">Rol</string>
+
+    <!-- Roles -->
+    <string name="rol_vigilancia">Vigilancia</string>
+    <string name="rol_rrhh">RR. HH.</string>
+    <string name="rol_colaborador">Colaborador</string>
+
+    <!-- =========================
+         Sesión / Cerrar sesión
+    ========================== -->
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="confirmar_cierre_sesion_title">Cerrar sesión</string>
+    <string name="confirmar_cierre_sesion_msg">¿Seguro que deseas cerrar sesión?</string>
+    <string name="sesion_cerrada">Sesión cerrada</string>
+
+    <!-- =========================
+         Errores / Estados comunes
+    ========================== -->
+    <string name="error_network">Sin conexión a internet</string>
+    <string name="error_permiso_denegado">Permiso denegado</string>
+    <string name="error_operacion">No se pudo completar la operación</string>
+    <string name="exito_operacion">Operación exitosa</string>
+
+</resources>

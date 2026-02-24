@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- ===== COLORES PRINCIPALES ===== -->
+
+    <!-- Azul del sistema -->
+    <color name="md_theme_primary">#0A6AA6</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+
+    <!-- Fondo gris claro como el mockup -->
+    <color name="md_theme_background">#E6E9ED</color>
+
+    <!-- Card blanca -->
+    <color name="md_card_bg">#FFFFFF</color>
+
+    <!-- Texto principal azul oscuro -->
+    <color name="md_text_primary">#1B2A41</color>
+
+    <!-- Hora azul destacada -->
+    <color name="md_time_blue">#2962FF</color>
+
+    <!-- ===== BOTONES ===== -->
+
+    <!-- Verde fuerte como botón Entrada -->
+    <color name="green_entrada">#137D00</color>
+
+    <!-- Rojo fuerte como botón Salida -->
+    <color name="red_salida">#C62828</color>
+
+    <!-- ===== Otros ===== -->
+
+    <color name="divider_color">#D0D5DD</color>
+
+    <!-- Alias -->
+    <color name="primary">@color/md_theme_primary</color>
+    <color name="onPrimary">@color/md_theme_onPrimary</color>
+
+    <!-- Tiles dashboard -->
+    <color name="tile_registrar">#DFF2CF</color>
+    <color name="tile_ver">#FFD1BB</color>
+    <color name="tile_reportes">#E7B5B5</color>
+    <color name="tile_usuarios">#9EE9F4</color>
+
+
+
+        <!-- ===== FONDO GENERAL ===== -->
+        <color name="home_background">#B8C1C9</color>
+
+        <!-- ===== ICONOS (azul oscuro) ===== -->
+        <color name="icon_primary">#0F2A3F</color>
+
+        <!-- ===== TILES ===== -->
+        <color name="tile2_registrar">#CFE6B8</color>   <!-- Verde pastel -->
+        <color name="tile2_ver">#E8B693</color>         <!-- Naranja pastel -->
+        <color name="tile2_reportes">#D8A1A1</color>    <!-- Rojo pastel -->
+        <color name="tile2_usuarios">#69C6CF</color>    <!-- Celeste -->
+
+        <!-- ===== BOTÓN CERRAR SESIÓN ===== -->
+        <color name="logout_background">#E5E5E5</color>
+        <color name="logout_red">#E53935</color>
+
+        <!-- ===== TEXTO ===== -->
+        <color name="text_dark">#111111</color>
+        <color name="text_secondary">#333333</color>
+
+    <color name="md_theme_secondary">#31C48D</color>
+
+</resources>
